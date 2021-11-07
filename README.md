@@ -1,20 +1,16 @@
 # Elastic stack (ELK) on Docker
 
 [![Elastic Stack version](https://img.shields.io/badge/Elastic%20Stack-7.15.1-00bfb3?style=flat&logo=elastic-stack)](https://www.elastic.co/blog/category/releases)
-[![Build Status](https://github.com/deviantony/docker-elk/workflows/CI/badge.svg?branch=main)](https://github.com/deviantony/docker-elk/actions?query=workflow%3ACI+branch%3Amain)
-[![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Run the latest version of the [Elastic stack][elk-stack] with Docker and Docker Compose.
 
 It gives you the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch and
-the visualization power of Kibana.
+the visualization power of Kibana.  
+  
+Docker 및 Docker Compose로 최신 버전의 [Elastic stack][elk-stack]을 실행합니다.  
+Elasticsearch의 검색/집계 기능을 사용하여 모든 데이터 세트를 분석하고 Kibana로 시각화할 수 있습니다.
 
 ![Animated demo](https://user-images.githubusercontent.com/3299086/140621647-2c06e2e6-81fc-4052-96b8-626b9d5f011f.gif)
-
-*:information_source: The Docker images backing this stack include [X-Pack][xpack] with [paid features][paid-features]
-enabled by default (see [How to disable paid features](#how-to-disable-paid-features) to disable them). **The [trial
-license][trial-license] is valid for 30 days**. After this license expires, you can continue using the free features
-seamlessly, without losing any data.*
 
 Based on the official Docker images from Elastic:
 
@@ -27,16 +23,6 @@ Other available stack variants:
 * [`tls`](https://github.com/deviantony/docker-elk/tree/tls): TLS encryption enabled in Elasticsearch.
 * [`searchguard`](https://github.com/deviantony/docker-elk/tree/searchguard): Search Guard support
 
----
-
-## Philosophy
-
-We aim at providing the simplest possible entry into the Elastic stack for anybody who feels like experimenting with
-this powerful combo of technologies. This project's default configuration is purposely minimal and unopinionated. It
-does not rely on any external dependency or custom automation to get things up and running.
-
-Instead, we believe in good documentation so that you can use this repository as a template, tweak it, and make it _your
-own_. [sherifabdlnaby/elastdocker][elastdocker] is one example among others of project that builds upon this idea.
 
 ---
 
@@ -462,3 +448,7 @@ instead of `elasticsearch`.*
 [upgrade]: https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html
 
 [swarm-mode]: https://docs.docker.com/engine/swarm/
+
+### 참고
+
+https://github.com/deviantony/docker-elk/blob/main/README.md

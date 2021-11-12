@@ -1,6 +1,6 @@
 # Elastic stack (ELK) on Docker
 
-[![Elastic Stack version](https://img.shields.io/badge/Elastic%20Stack-7.15.1-00bfb3?style=flat&logo=elastic-stack)](https://www.elastic.co/blog/category/releases)
+![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 Run the latest version of the [Elastic stack][elk-stack] with Docker and Docker Compose.
 
